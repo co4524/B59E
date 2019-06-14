@@ -1,0 +1,60 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- index.html
+	- 
+
+[GIN-debug] GET    /                         --> main.main.func1 (4 handlers)
+[GIN-debug] GET    /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /img/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /img/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] GET    /js/*filepath             --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /js/*filepath             --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /login                    --> main.handleLogin (4 handlers)
+[GIN-debug] POST   /auth                     --> main.handleAuth (4 handlers)
+[GIN-debug] POST   /launch/propose           --> main.handlePropose (4 handlers)
+[GIN-debug] GET    /launch/propose           --> main.handleGetPropose (4 handlers)
+[GIN-debug] POST   /register/queryName       --> main.handleQueryName (4 handlers)
+[GIN-debug] POST   /register/register        --> main.handleRegister (4 handlers)
+[GIN-debug] GET    /abi/bcp                  --> main.handleABIBCP (4 handlers)
+[GIN-debug] GET    /abi/lip                  --> main.handleABILIP (4 handlers)
+[GIN-debug] GET    /abi/platform             --> main.handleABIPlatform (4 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2019/06/12 - 05:20:29 | 304 |     182.427µs |  140.112.14.145 | GET      /register
+[GIN] 2019/06/12 - 05:20:29 | 304 |     135.334µs |  140.112.14.145 | GET      /css/app.95de2732.css
+[GIN] 2019/06/12 - 05:20:29 | 304 |     118.799µs |  140.112.14.145 | GET      /js/app.1a7020fa.js
+[GIN] 2019/06/12 - 05:20:29 | 304 |     237.788µs |  140.112.14.145 | GET      /js/chunk-vendors.7066a09d.js
+[GIN] 2019/06/12 - 05:20:29 | 304 |     135.852µs |  140.112.14.145 | GET      /css/chunk-vendors.3a0d0641.css
+[GIN] 2019/06/12 - 05:20:29 | 304 |     104.211µs |  140.112.14.145 | GET      /js/chunk-vendors.7066a09d.js.map
+[GIN] 2019/06/12 - 05:20:29 | 304 |      104.27µs |  140.112.14.145 | GET      /js/app.1a7020fa.js.map
+[GIN] 2019/06/12 - 05:20:29 | 304 |     112.544µs |  140.112.14.145 | GET      /img/blockchain.592183d3.svg
+[GIN] 2019/06/12 - 05:20:30 | 304 |     135.944µs |  140.112.14.145 | GET      /img/chicken_small.ca0ee559.svg
+[GIN] 2019/06/12 - 05:20:30 | 200 |    3.082076ms |  140.112.14.145 | GET      /favicon.ico
+[GIN] 2019/06/12 - 05:20:40 | 200 |    3.106196ms |  140.112.14.145 | POST     /register/queryName
+[GIN] 2019/06/12 - 05:20:58 | 200 |   23.511031ms |  140.112.14.145 | POST     /register/register
+[GIN] 2019/06/12 - 05:20:58 | 200 |     139.771µs |  140.112.14.145 | GET      /img/chicken_hot.87053678.svg
+[GIN] 2019/06/12 - 05:20:59 | 200 |    2.869764ms |  140.112.14.145 | GET      /launch/propose
+[GIN] 2019/06/12 - 05:21:05 | 200 |     136.335µs |  140.112.14.145 | GET      /project
+[GIN] 2019/06/12 - 05:21:08 | 200 |    4.709182ms |  140.112.14.145 | POST     /auth
+[GIN] 2019/06/12 - 05:30:32 | 200 |     264.955µs |  140.112.14.145 | GET      /img/crying.b49a64c2.svg
+[GIN] 2019/06/12 - 05:30:40 | 200 |     140.809µs |  140.112.14.145 | GET      /account
+[GIN] 2019/06/12 - 05:30:41 | 304 |     142.628µs |  140.112.14.145 | GET      /css/app.95de2732.css
+[GIN] 2019/06/12 - 05:30:41 | 304 |     106.007µs |  140.112.14.145 | GET      /css/chunk-vendors.3a0d0641.css
+[GIN] 2019/06/12 - 05:30:41 | 304 |     116.987µs |  140.112.14.145 | GET      /js/app.1a7020fa.js
+[GIN] 2019/06/12 - 05:30:41 | 304 |      84.482µs |  140.112.14.145 | GET      /js/chunk-vendors.7066a09d.js
+[GIN] 2019/06/12 - 05:30:41 | 304 |     159.573µs |  140.112.14.145 | GET      /img/blockchain.592183d3.svg
+[GIN] 2019/06/12 - 05:30:41 | 200 |    3.315766ms |  140.112.14.145 | POST     /auth
+[GIN] 2019/06/12 - 05:30:41 | 200 |     132.231µs |  140.112.14.145 | GET      /favicon.ico
+[GIN] 2019/06/12 - 05:30:42 | 200 |     210.653µs |  140.112.14.145 | GET      /img/line.c662e282.svg
+[GIN] 2019/06/12 - 05:30:42 | 200 |     203.944µs |  140.112.14.145 | GET      /img/right.b5db6703.svg
+[GIN] 2019/06/12 - 05:30:42 | 200 |      184.33µs |  140.112.14.145 | GET      /img/money-bag.54f68190.svg
+[GIN] 2019/06/12 - 05:30:49 | 200 |    1.677322ms |  140.112.14.145 | GET      /img/backgroundPic.12b2459e.png
+[GIN] 2019/06/12 - 05:30:54 | 200 |    5.298066ms |  140.112.14.145 | GET      /launch/propose
+[GIN] 2019/06/12 - 05:31:19 | 200 |     475.973µs |  140.112.14.145 | GET      /
+[GIN] 2019/06/12 - 05:31:19 | 200 |      151.77µs |  140.112.14.145 | GET      /favicon.ico
+[GIN] 2019/06/12 - 05:31:22 | 200 |    2.699734ms |  140.112.14.145 | POST     /auth

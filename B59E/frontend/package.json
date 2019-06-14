@@ -1,0 +1,68 @@
+{
+  "name": "B59e-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "cors": "^2.8.5",
+    "mongojs": "^2.6.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "vee-validate": "^2.2.3",
+    "vue": "^2.6.10",
+    "vue-avatar": "^2.1.7",
+    "vue-axios": "^2.1.4",
+    "vue-cookies": "^1.5.13",
+    "vue-router": "^3.0.3",
+    "vuedarkmode": "^0.3.23",
+    "vuetify": "^1.5.5",
+    "vuetify-upload-button": "^2.0.0",
+    "vuex": "^3.0.1",
+    "web3": "^0.20.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-template-compiler": "^2.5.21",
+    "vuetify-loader": "^1.0.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
